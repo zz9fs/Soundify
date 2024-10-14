@@ -30,3 +30,29 @@ The app is built using the **MVVM (Model-View-ViewModel)** architecture pattern:
 1. Clone the repository:
    ```bash
    git clone https://github.com/YourUsername/Soundify.git
+
+2. Open the project in Android Studio.
+
+3. Ensure the following dependencies are included in your **build.gradle**:
+
+- Jetpack Compose
+- Jetpack Navigation Component
+- Retrofit for networking
+- Room Database for local data storage
+- Google ExoPlayer for media playback
+- Hilt for Dependency Injection
+- Start the json-server to simulate the backend:
+
+4. Start the **json-server** to simulate the backend:
+   ```bash
+   json-server --watch db.json
+
+5. Run the app on an emulator or connected device.
+
+## Future Improvements
+
+- **Real Backend Integration**: Replace json-server with a live backend for real-time music streaming.
+- **User Authentication**: Add user authentication to personalize the experience further.
+- **Playlists**: Implement playlist creation and management.
+- **Music Recommendations**: Add a recommendation engine to suggest new music based on user preferences.
+
